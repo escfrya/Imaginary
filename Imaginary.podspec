@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.watchos.source_files = 'Sources/{iOS,Shared}/**/*'
 
   s.frameworks = 'Foundation'
-  s.dependency 'Cache', '~> 6.0.0'
+  s.dependency 'Cache', '~> 7.0.0'
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.swift_version = '5.0'
